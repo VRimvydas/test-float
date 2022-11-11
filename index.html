@@ -4,15 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sport</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
   </head>
   <body>
-    <header>Virsus</header>
+   
+    <header class="header">
+        <div class="wrapper">
+          <img class="logo-img" src="./assets/images/logo.png" alt="logo">
+          <p>Pergalės prasideda čia!</p>
 
-    <main> Pagrindas
-      <section>Sekcija1</section>
-      <section>Sekcija2</section>
-    </main>
-    <footer>Apacia</footer>
+        </div>
+    </header>
+    
+    <nav class="nav">
+      <div class="wrapper">
+        <ul>
+          <li><a href="#">Rūbai</a></li>
+          <li><a href="#">Avalynė</a></li>
+          <li><a href="#">Aksesuarai</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="mainblock">
+      <div class="wrapper">
+      <p>Prekiniai ženklai</p>
+
+      <div class="brand">
+        <p>Nike</p>
+        <a href="#"> <img src="./assets/images/nike.jpeg" alt="Nike"></a>
+       
+
+      </div>
+      <div class="brand">
+        <p>Jordan</p>
+        <img src="./assets/images/jordan.jpg" alt="Jordan">
+
+      </div>
+
+      <div class="brand">
+        <p>Under armour</p>
+        <img src="./assets/images/ua.jpeg" alt="Under armour">
+
+      </div>
+
+      <div class="brand">
+        <p>New Balance</p>
+        <img src="./assets/images/newb.jpg" alt="New Balance">
+
+      </div>
+    </div>
+    </section>
+
+    <section class="newsblock">
+      <div class="wrapper"><h2>Naujienlaiškis</h2>
+        <br>
+        <p> Užsiprenumeruok ir gauk nuolaidą</p>
+        <br>
+        <form>
+          <input type="checkbox" id="kind1" name="kind1" value="Sportui" />
+          <label for="kind1"> Sportui</label>
+          <input type="checkbox" id="kind2" name="kind2" value="Laisvalaikiui" />
+          <label for="kind2"> Laisvalaikiui</label><br />
+          <br>
+          <input type="text" placeholder="Įvesk el. paštą"  required size="30"/>
+          <input type="text" placeholder="Įvesk vardą"  required size="20"/>
+          <input type="submit" value="Siųsti"/>
+        </form>
+        
+  
+      </div>
+      
+    </section>
+    <footer class="footer">
+      <div class="wrapper">
+      <p>&copy;Mega Sport
+      </p>
+    </div>
+    </footer>
+   
+    
   </body>
 </html>
